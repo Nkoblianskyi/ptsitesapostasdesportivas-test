@@ -101,7 +101,7 @@ export function SiteFooter() {
           <h4 className="text-gray-900 font-bold mb-6 text-center text-lg">Organizações</h4>
           <div className="grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
             <Link
-              href="https://www.sicad.pt"
+              href="https://www.icad.pt/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-50 hover:bg-gray-100 rounded-lg p-2 md:p-4 flex items-center justify-center transition-colors border border-gray-200"
