@@ -9,12 +9,12 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 border-b border-gray-200 pb-8">
           {/* Logo and description */}
           <div className="md:col-span-3 space-y-4">
-            <Link href="/" className="flex items-center gap-2 group flex-shrink-0 min-w-0">
+            <Link href="/" className="flex items-center group flex-shrink-0 min-w-0">
               <div className="relative h-10 w-10 overflow-hidden flex items-center justify-center transition-transform duration-300 group-hover:scale-110 flex-shrink-0">
-                <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
+                <Image src="/favicon.ico" alt="Logo" width={28} height={28} />
               </div>
               <div className="flex flex-col min-w-0">
-                <span className="uppercase text-xl font-bold bg-gradient-to-r from-green-600 to-red-600 bg-clip-text text-transparent transition-all duration-300 group-hover:from-green-700 group-hover:to-red-700 leading-none truncate">
+                <span className="uppercase text-xs font-bold bg-gradient-to-r from-green-600 to-red-600 bg-clip-text text-transparent transition-all duration-300 group-hover:from-green-700 group-hover:to-red-700 leading-none truncate">
                   ptsitesapostasdesportivas
                 </span>
               </div>
